@@ -14,25 +14,24 @@ class Example extends Model {
 
     protected $allowedFields = [
         'id',
-        'class',
-        'key',
-        'value',
-        'type',
-        'context',
-        'created_at',
-        'updated_at',
-        'currency',
-        'sport_autofill',
-        'combination',
-        'stake'
+        'title',
+        'description',
+        'due_date',
+        'completed'
     ];
 
     protected $useTimestamps = false;
-    protected $createdField = '';
-    protected $updatedField = '';
+    protected $createdField = 'created_at';
+    protected $updatedField = 'updated_at';
     protected $deletedField = '';
 
-    protected $validationRules = [];
+    protected $validationRules = [
+        'id' => 'require',
+        'title' => 'require',
+        'description' => 'require',
+        'due_date' => 'require',
+        'completed' => 'require'
+    ];
     protected $validationMessages = [];
     protected $skipValidation = false;
 
@@ -48,5 +47,27 @@ class Example extends Model {
 
         return $this->asObject('App\Entities\Settings')->where(['id' => $user_id])->first();
     }
+
+    public function getAllAufgaben() {
+        return $this->findAll();
+    }
+
+    public function getAufgaben($id) {
+        return $this->find($id);
+    }
+
+    public function createAufgaben($data) {
+        return $this->insert($data);
+    }
+
+    public function updateAufgaben($id, $data) {
+        return $this->update($id, $data);
+    }
+
+    public function deleteAufgaben($id) {
+        return $this->delete($id);
+    }
+
+
 }
 

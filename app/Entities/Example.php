@@ -3,20 +3,13 @@
 class Example extends Base {
     public $attributes = [
         // 'id'=> '',
-        'class' => '',
-        'key' => '',
-        'value' => '',
-        'type' => '',
-        'context' => '',
-        'created_at' => '',
-        'updated_at' => '',
-        'currency' => '',
-        'sport_autofill' => '',
-        'combination' => '',
-        'stake' => ''
+        'title' => null,
+        'description' => null,
+        'due_date' => null,
+        'completed' => false
     ];
 
-    protected $dates = [];
+    protected $dates = ['due_date'];
 
 }
 
