@@ -22,6 +22,11 @@ class Tasks extends BaseController {
         return view('in die entsprechende view leiten', $data);
     }
 
+    //leitet zur view weiter wo das formula ist für die erstellung von aufgaben
+    public function create() {
+        return view('in die entsprechende view leiten');
+    }
+
     //speichert neue Aufgabe in DB
     public function save(RequestInterface $request) {
         $model = new example();
