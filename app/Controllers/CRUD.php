@@ -30,11 +30,11 @@ class Tasks extends BaseController {
     //speichert neue Aufgabe in DB
     public function save(RequestInterface $request) {
         $model = new example();
-        $aufgabe = new \App\Entities\Settings($request->getPost());
-        if (!$model->save($aufgabe)) {
+        $aufgabe = new \App\Entities\Example($request->getPost());
+        if (!$model->createAufgaben($aufgabe)) {
             return redirect()->back()->withInput()->with('errors', $model->errors());
         }
-        return redirect()->to('/Settings')->with('success', 'aufgabe created successfully!');
+        return redirect()->to('/Example')->with('success', 'aufgabe created successfully!');
 
     }
 
@@ -47,20 +47,20 @@ class Tasks extends BaseController {
 //akutallisiert die bearbeiteten daten in DB
     public function update(RequestInterface $request, $id) {
         $model = new example();
-        $aufgabe = new \App\Entities\Settings($request->getPost());
+        $aufgabe = new \App\Entities\Example($request->getPost());
         $aufgabe->id = $id;
-        if (!$model->save($aufgabe)) { 
+        if (!$model->updateAufgaben($aufgabe)) { 
             return redirect()->back()->withInput()->with('errors', $model->errors());
         }
-        return redirect()->to('/Settings')->with('success', 'aufgabe updated successfully!');
+        return redirect()->to('/Example')->with('success', 'aufgabe updated successfully!');
     }
 //löscht alle daten aus der db einer besimmten Aufgabe
     public function delete($id) {
         $model = new example();
-        if (!$model->delete($id)) {
+        if (!$model->deleteAufgaben($id)) {
             return redirect()->back()->withInput()->with('errors', $model->errors());
         }
-        return redirect()->to('/Settings')->with('success', 'aufgabe deleted successfully!');
+        return redirect()->to('/Example')->with('success', 'aufgabe deleted successfully!');
     }
 
 

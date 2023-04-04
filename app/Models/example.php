@@ -68,6 +68,5 @@ class Example extends Model {
         return $this->delete($id);
     }
 
-
 }
 
