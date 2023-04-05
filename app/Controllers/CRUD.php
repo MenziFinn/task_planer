@@ -2,22 +2,23 @@
 
 namespace App\Controllers;
 
-class Tasks extends BaseController {
+class CRUD extends BaseController {
 
-    
+
     public function index() {
         return view('welcome_message');
     }
-// Ladet eine aufgabe anhand der id und gibt es an eine view weiter
+
+    // Ladet eine aufgabe anhand der id und gibt es an eine view weiter
     public function show($id) {
         $model = new example();
         $data['setting'] = $model->getAufgaben($id);
         return view('in die entsprechende view leiten', $data);
     }
 
-//ladet alle aufgaben und gibt sie an eine view weiter
+    //ladet alle aufgaben und gibt sie an eine view weiter
     public function showAll() {
-    $model = new example();
+        $model = new example();
         $data['setting'] = $model->getAllAufgaben();
         return view('in die entsprechende view leiten', $data);
     }
@@ -31,6 +32,9 @@ class Tasks extends BaseController {
     public function save(RequestInterface $request) {
         $model = new example();
         $aufgabe = new \App\Entities\Settings($request->getPost());
+
+        
+
         if (!$model->save($aufgabe)) {
             return redirect()->back()->withInput()->with('errors', $model->errors());
         }
@@ -44,17 +48,19 @@ class Tasks extends BaseController {
         $data['setting'] = $model->getAufgaben($id);
         return view('in die entsprechende view leiten', $data);
     }
-//akutallisiert die bearbeiteten daten in DB
+
+    //akutallisiert die bearbeiteten daten in DB
     public function update(RequestInterface $request, $id) {
         $model = new example();
         $aufgabe = new \App\Entities\Settings($request->getPost());
         $aufgabe->id = $id;
-        if (!$model->save($aufgabe)) { 
+        if (!$model->save($aufgabe)) {
             return redirect()->back()->withInput()->with('errors', $model->errors());
         }
         return redirect()->to('/Settings')->with('success', 'aufgabe updated successfully!');
     }
-//löscht alle daten aus der db einer besimmten Aufgabe
+
+    //löscht alle daten aus der db einer besimmten Aufgabe
     public function delete($id) {
         $model = new example();
         if (!$model->delete($id)) {
@@ -64,8 +70,7 @@ class Tasks extends BaseController {
     }
 
 
-
-    private function responseModel($model_name){
+    private function responseModel($model_name) {
 
     }
 }
