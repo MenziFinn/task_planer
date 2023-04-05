@@ -31,13 +31,14 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 //GET
-$routes->get('/', 'Home::index', ["filter" => "checkauth"]);
+$routes->get('/', 'Home::index');
+$routes->get("Read/(:any)/(:any)", "CRUD::read/$1/$2");
 
 //POST
-$routes->post("$1/Save/$2", "CRUD::Save/$1/$2", ["filter" => "checkauth"]);
+$routes->post("$1/Save/$2", "CRUD::Save/$1/$2",);
 
 
-service('auth')->routes($routes);
+//service('auth')->routes($routes);
 
 /*
  * --------------------------------------------------------------------

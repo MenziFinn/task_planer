@@ -4,11 +4,11 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Example extends Model {
-    protected $table = 'settings';
+class TaskModel extends BaseModel {
+    protected $table = 'tasks';
     protected $primaryKey = 'id';
 
-    protected $returnType = 'App\Entities\Settings';
+    protected $returnType = 'App\Entities\Tasks';
 
     protected $useSoftDeletes = false;
 
@@ -40,32 +40,13 @@ class Example extends Model {
      * @param false $status
      * @return array|false
      */
+
     public function getSettingsByUserId($user_id = false) {
         if ($user_id === false) {
             return false;
         }
 
         return $this->asObject('App\Entities\Settings')->where(['id' => $user_id])->first();
-    }
-
-    public function getAllAufgaben() {
-        return $this->findAll();
-    }
-
-    public function getAufgaben($id) {
-        return $this->find($id);
-    }
-
-    public function createAufgaben($data) {
-        return $this->insert($data);
-    }
-
-    public function updateAufgaben($id, $data) {
-        return $this->update($id, $data);
-    }
-
-    public function deleteAufgaben($id) {
-        return $this->delete($id);
     }
 
 }

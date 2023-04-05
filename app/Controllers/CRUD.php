@@ -3,74 +3,53 @@
 namespace App\Controllers;
 
 class CRUD extends BaseController {
-
-
-    public function index() {
-        return view('welcome_message');
+    public function create($table) {
     }
 
-    // Ladet eine aufgabe anhand der id und gibt es an eine view weiter
-    public function show($id) {
-        $model = new example();
-        $data['setting'] = $model->getAufgaben($id);
-        return view('in die entsprechende view leiten', $data);
+    public function read($table, $id) {
+        //dynamisch model aus url (im Config/Routes.php kasch luege wie es ufbaut isch und wie zum wert kunsch)
+        $model = $this->responseModel($table);
+
+        //Im Base Model e Function mache wo getEntryById heisst und id uslist
+        $single_entry = $model->getEntryById($id);
+
+        $data = [
+            "entry" => $single_entry
+        ];
+
+        return view('crud', $data);
     }
 
-    //ladet alle aufgaben und gibt sie an eine view weiter
-    public function showAll() {
-        $model = new example();
-        $data['setting'] = $model->getAllAufgaben();
-        return view('in die entsprechende view leiten', $data);
+    public function update($table) {
     }
 
-    //leitet zur view weiter wo das formula ist für die erstellung von aufgaben
-    public function create() {
-        return view('in die entsprechende view leiten');
+    public function delete($table) {
     }
-
-    //speichert neue Aufgabe in DB
-    public function save(RequestInterface $request) {
-        $model = new example();
-        $aufgabe = new \App\Entities\Settings($request->getPost());
-
-        
-
-        if (!$model->save($aufgabe)) {
-            return redirect()->back()->withInput()->with('errors', $model->errors());
-        }
-        return redirect()->to('/Settings')->with('success', 'aufgabe created successfully!');
-
-    }
-
-    // leitet an view weiter wo die daten bearbeitet werden können
-    public function edit($id) {
-        $model = new example();
-        $data['setting'] = $model->getAufgaben($id);
-        return view('in die entsprechende view leiten', $data);
-    }
-
-    //akutallisiert die bearbeiteten daten in DB
-    public function update(RequestInterface $request, $id) {
-        $model = new example();
-        $aufgabe = new \App\Entities\Settings($request->getPost());
-        $aufgabe->id = $id;
-        if (!$model->save($aufgabe)) {
-            return redirect()->back()->withInput()->with('errors', $model->errors());
-        }
-        return redirect()->to('/Settings')->with('success', 'aufgabe updated successfully!');
-    }
-
-    //löscht alle daten aus der db einer besimmten Aufgabe
-    public function delete($id) {
-        $model = new example();
-        if (!$model->delete($id)) {
-            return redirect()->back()->withInput()->with('errors', $model->errors());
-        }
-        return redirect()->to('/Settings')->with('success', 'aufgabe deleted successfully!');
-    }
-
 
     private function responseModel($model_name) {
+        $model_name = ucfirst($model_name);
+        $model_name = $model_name . "Model";
 
+        $modelClass = 'App\Models\\' . $model_name;
+
+        if (!class_exists($modelClass)) {
+            echo "This Model doesn't exists";
+            exit();
+        }
+
+        return new $modelClass();
+    }
+
+    private function responseEntity($entity_name) {
+        $entity_name = ucfirst($entity_name);
+
+        $entityClass = 'App\Entities\\' . $entity_name;
+
+        if (!class_exists($entityClass)) {
+            echo "This Entity doesn't exists";
+            exit();
+        }
+
+        return new $entityClass();
     }
 }
