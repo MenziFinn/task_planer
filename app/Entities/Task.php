@@ -1,6 +1,7 @@
 <?php namespace App\Entities;
 
-class Example extends Base {
+class Task extends Base {
+
     public $attributes = [
         // 'id'=> '',
         'title' => null,

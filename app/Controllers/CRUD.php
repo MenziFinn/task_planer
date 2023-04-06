@@ -3,7 +3,17 @@
 namespace App\Controllers;
 
 class CRUD extends BaseController {
-    public function create($table) {
+    public function create($table, $id) {
+        $model = $this->responseModel($table);
+        $entity = $this->responseEntity($table);
+
+        foreach ($this->request->getPost() as $key => $item):
+            $entity->$key = $item;
+        endforeach;
+
+        //save $id = xy;
+        // wen es de itrag scho git den mach update und save
+        $model->save($entity);
     }
 
     public function read($table, $id) {
@@ -20,10 +30,14 @@ class CRUD extends BaseController {
         return view('crud', $data);
     }
 
-    public function update($table) {
+    public function update($table, $id) {
+        // Update function kann me mit create zämme mache
     }
 
-    public function delete($table) {
+    public function delete($table, $id) {
+        $model = $this->responseModel($table);
+        // deleteById muesch im model no erstelle (BaseModel)
+        $model->deleteById($id);
     }
 
     private function responseModel($model_name) {
