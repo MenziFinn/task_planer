@@ -1,0 +1,266 @@
+CRITICAL - 2022-10-05 00:10:37 --> Invalid file: be/overwiev.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('be/overwiev.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/overwiev', [], true)
+ 3 APPPATH/Controllers/Management.php(15): view('be/overwiev', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:33:04 --> Class 'Config\AuthFilter' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('Account/Dashboard', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:33:25 --> Class 'Config\AuthFilter' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('Account/Dashboard', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:40:31 --> Argument 1 passed to CodeIgniter\Router\RouteCollection::group() must be of the type string, null given, called in /var/www/html/app/Config/Routes.php on line 33
+in SYSTEMPATH/Router/RouteCollection.php on line 620.
+ 1 APPPATH/Config/Routes.php(33): CodeIgniter\Router\RouteCollection->group(null, [...], Object(Closure))
+ 2 SYSTEMPATH/CodeIgniter.php(769): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:42:08 --> Argument 1 passed to CodeIgniter\Router\RouteCollection::group() must be of the type string, null given, called in /var/www/html/app/Config/Routes.php on line 33
+in SYSTEMPATH/Router/RouteCollection.php on line 620.
+ 1 APPPATH/Config/Routes.php(33): CodeIgniter\Router\RouteCollection->group(null, [...], Object(Closure))
+ 2 SYSTEMPATH/CodeIgniter.php(769): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:46:02 --> Class 'error_pages/404' not found
+in SYSTEMPATH/CodeIgniter.php on line 869.
+ 1 SYSTEMPATH/CodeIgniter.php(934): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:56:56 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/AccountController.php on line 43.
+ 1 APPPATH/Controllers/AccountController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/AccountController.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\AccountController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:59:01 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/AccountController.php on line 43.
+ 1 APPPATH/Controllers/AccountController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/AccountController.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\AccountController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 01:59:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/AccountController.php on line 43.
+ 1 APPPATH/Controllers/AccountController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/AccountController.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\AccountController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 21:59:36 --> json_encode() expects at least 1 parameter, 0 given
+in APPPATH/Controllers/Management.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() expects at least 1 parameter, 0 given', 'APPPATH/Controllers/Management.php', 22, [...])
+ 2 APPPATH/Controllers/Management.php(22): json_encode()
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->ajaxBettings()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:04:17 --> json_encode() expects at least 1 parameter, 0 given
+in APPPATH/Controllers/Management.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() expects at least 1 parameter, 0 given', 'APPPATH/Controllers/Management.php', 22, [...])
+ 2 APPPATH/Controllers/Management.php(22): json_encode()
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->ajaxBettings()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 22:30:40 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `be...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Betting), false)
+#8 /var/www/html/app/Controllers/Management.php(47): CodeIgniter\BaseModel->save(Object(App\Entities\Betting))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\Management->SaveBettings()
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+#11 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-05 22:30:40 --> Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (:betting_id:, :user_id:, :sport:, :stake:, :combination:, :receive:, :maximum_prize_money:, :vs:, :status:)', [...], false)
+ 5 SYSTEMPATH/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Betting), false)
+ 9 APPPATH/Controllers/Management.php(47): CodeIgniter\BaseModel->save(Object(App\Entities\Betting))
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->SaveBettings()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 22:30:58 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `be...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Betting), false)
+#8 /var/www/html/app/Controllers/Management.php(47): CodeIgniter\BaseModel->save(Object(App\Entities\Betting))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\Management->SaveBettings()
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+#11 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-05 22:30:58 --> Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (:betting_id:, :user_id:, :sport:, :stake:, :combination:, :receive:, :maximum_prize_money:, :vs:, :status:)', [...], false)
+ 5 SYSTEMPATH/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Betting), false)
+ 9 APPPATH/Controllers/Management.php(47): CodeIgniter\BaseModel->save(Object(App\Entities\Betting))
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->SaveBettings()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 22:31:01 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `be...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Betting), false)
+#8 /var/www/html/app/Controllers/Management.php(47): CodeIgniter\BaseModel->save(Object(App\Entities\Betting))
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\Management->SaveBettings()
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+#11 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-05 22:31:01 --> Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (\'\', 1, \'Tennis\', \'25\', \'\', \'234\', \'12\', \'Test\', \'0\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `betting` (`betting_id`, `user_id`, `sport`, `stake`, `combination`, `receive`, `maximum_prize_money`, `vs`, `status`) VALUES (:betting_id:, :user_id:, :sport:, :stake:, :combination:, :receive:, :maximum_prize_money:, :vs:, :status:)', [...], false)
+ 5 SYSTEMPATH/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Betting), false)
+ 9 APPPATH/Controllers/Management.php(47): CodeIgniter\BaseModel->save(Object(App\Entities\Betting))
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->SaveBettings()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:45:55 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Management.php(54): CodeIgniter\BaseModel->delete()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:46:29 --> Argument 2 passed to CodeIgniter\BaseModel::delete() must be of the type bool, null given, called in /var/www/html/app/Controllers/Management.php on line 54
+in SYSTEMPATH/BaseModel.php on line 944.
+ 1 APPPATH/Controllers/Management.php(54): CodeIgniter\BaseModel->delete('betting_id', null)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:46:36 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Management.php(54): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:46:38 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Management.php(54): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:48:36 --> Call to undefined method App\Models\Betting::deleteWhere
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Management.php(54): CodeIgniter\Model->__call('deleteWhere', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:51:19 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH/Models/Betting.php on line 121.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-05 22:51:28 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH/Models/Betting.php on line 121.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-05 22:52:38 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH/Models/Betting.php on line 121.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-05 22:52:54 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Models/Betting.php(121): CodeIgniter\BaseModel->delete(null)
+ 4 APPPATH/Controllers/Management.php(54): App\Models\Betting->deleteWhereIdIs(null)
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:53:09 --> Undefined variable: deleted_at
+in APPPATH/Models/Betting.php on line 121.
+ 1 APPPATH/Models/Betting.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: deleted_at', 'APPPATH/Models/Betting.php', 121, [...])
+ 2 APPPATH/Controllers/Management.php(54): App\Models\Betting->deleteWhereIdIs(null)
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 22:59:01 --> Call to undefined method App\Models\Betting::delte
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Management.php(54): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 23:01:05 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Management.php(54): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 23:01:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Management.php(54): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->DeleteBetting()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-05 23:57:11 --> syntax error, unexpected end of file
+in APPPATH/Config/Events.php on line 86.
+ 1 SYSTEMPATH/Events/Events.php(141): CodeIgniter\Events\Events::initialize()
+ 2 SYSTEMPATH/CodeIgniter.php(317): CodeIgniter\Events\Events::trigger('pre_system')
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

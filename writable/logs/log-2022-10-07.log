@@ -1,0 +1,9 @@
+CRITICAL - 2022-10-07 12:38:18 --> syntax error, unexpected '<'
+in APPPATH/Views/be/Management.php on line 23.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Management', [], true)
+ 3 APPPATH/Controllers/Management.php(15): view('be/Management', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

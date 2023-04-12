@@ -1,0 +1,11 @@
+CRITICAL - 2022-10-01 20:25:15 --> Undefined variable: betting
+in APPPATH/Views/be/Dashboard.php on line 2.
+ 1 APPPATH/Views/be/Dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: betting', 'APPPATH/Views/be/Dashboard.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/Dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Dashboard', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(14): view('be/Dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,116 @@
+CRITICAL - 2022-09-22 19:57:32 --> Invalid file: be/statistics.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('be/statistics.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 3 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:03:12 --> Trying to get property 'date' of non-object
+in APPPATH/Views/be/WealthManagement.php on line 44.
+ 1 APPPATH/Views/be/WealthManagement.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'date\' of non-object', 'APPPATH/Views/be/WealthManagement.php', 44, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/WealthManagement.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/WealthManagement', [], true)
+ 5 APPPATH/Controllers/WealthManagement.php(17): view('be/WealthManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:05:43 --> Trying to get property 'date' of non-object
+in APPPATH/Views/be/WealthManagement.php on line 44.
+ 1 APPPATH/Views/be/WealthManagement.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'date\' of non-object', 'APPPATH/Views/be/WealthManagement.php', 44, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/WealthManagement.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/WealthManagement', [], true)
+ 5 APPPATH/Controllers/WealthManagement.php(17): view('be/WealthManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:16:45 --> Trying to get property 'date' of non-object
+in APPPATH/Views/be/WealthManagement.php on line 54.
+ 1 APPPATH/Views/be/WealthManagement.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'date\' of non-object', 'APPPATH/Views/be/WealthManagement.php', 54, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/WealthManagement.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/WealthManagement', [], true)
+ 5 APPPATH/Controllers/WealthManagement.php(17): view('be/WealthManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:17:45 --> Cannot use object of type App\Entities\Payout as array
+in APPPATH/Controllers/WealthManagement.php on line 59.
+ 1 APPPATH/Controllers/WealthManagement.php(13): App\Controllers\WealthManagement->getWealth(1)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:18:09 --> Trying to get property 'date' of non-object
+in APPPATH/Views/be/WealthManagement.php on line 54.
+ 1 APPPATH/Views/be/WealthManagement.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'date\' of non-object', 'APPPATH/Views/be/WealthManagement.php', 54, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/WealthManagement.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/WealthManagement', [], true)
+ 5 APPPATH/Controllers/WealthManagement.php(17): view('be/WealthManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:18:58 --> Undefined index: payout
+in APPPATH/Views/be/WealthManagement.php on line 2.
+ 1 APPPATH/Views/be/WealthManagement.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: payout', 'APPPATH/Views/be/WealthManagement.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/WealthManagement.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/WealthManagement', [], true)
+ 5 APPPATH/Controllers/WealthManagement.php(17): view('be/WealthManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:22:06 --> Cannot use object of type App\Entities\Payout as array
+in APPPATH/Controllers/WealthManagement.php on line 57.
+ 1 APPPATH/Controllers/WealthManagement.php(13): App\Controllers\WealthManagement->getWealth(1)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:22:18 --> Array to string conversion
+in APPPATH/Views/be/WealthManagement.php on line 62.
+ 1 APPPATH/Views/be/WealthManagement.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/be/WealthManagement.php', 62, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/WealthManagement.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/WealthManagement', [], true)
+ 5 APPPATH/Controllers/WealthManagement.php(17): view('be/WealthManagement', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:25:47 --> Call to undefined method App\Models\Payout::order_by
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Models/Payout.php(48): CodeIgniter\Model->__call('order_by', [...])
+ 2 APPPATH/Controllers/WealthManagement.php(44): App\Models\Payout->getPayoutByUserId(1)
+ 3 APPPATH/Controllers/WealthManagement.php(13): App\Controllers\WealthManagement->getWealth(1)
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:26:00 --> Call to undefined method App\Models\Payout::order
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Models/Payout.php(48): CodeIgniter\Model->__call('order', [...])
+ 2 APPPATH/Controllers/WealthManagement.php(44): App\Models\Payout->getPayoutByUserId(1)
+ 3 APPPATH/Controllers/WealthManagement.php(13): App\Controllers\WealthManagement->getWealth(1)
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 20:26:51 --> Call to undefined method App\Models\Payout::order
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Models/Payout.php(48): CodeIgniter\Model->__call('order', [...])
+ 2 APPPATH/Controllers/WealthManagement.php(44): App\Models\Payout->getPayoutByUserId(1)
+ 3 APPPATH/Controllers/WealthManagement.php(13): App\Controllers\WealthManagement->getWealth(1)
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\WealthManagement->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WealthManagement))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

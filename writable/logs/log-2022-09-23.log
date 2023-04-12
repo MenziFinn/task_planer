@@ -1,0 +1,8 @@
+CRITICAL - 2022-09-23 18:18:14 --> require(path/to/google-search-results.php): failed to open stream: No such file or directory
+in APPPATH/Controllers/FeView.php on line 10.
+ 1 APPPATH/Controllers/FeView.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(path/to/google-search-results.php): failed to open stream: No such file or directory', 'APPPATH/Controllers/FeView.php', 10, [])
+ 2 APPPATH/Controllers/FeView.php(10): require()
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

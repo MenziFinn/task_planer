@@ -1,8 +1,5 @@
 <?php
 
-namespace App\Models;
-
-use CodeIgniter\Model;
 
 class TaskModel extends BaseModel {
     protected $table = 'tasks';

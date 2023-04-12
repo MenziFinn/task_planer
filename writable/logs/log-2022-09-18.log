@@ -1,0 +1,12 @@
+CRITICAL - 2022-09-18 20:24:52 --> include(footer): failed to open stream: No such file or directory
+in APPPATH/Views/fe/tipGameLinks.php on line 135.
+ 1 APPPATH/Views/fe/tipGameLinks.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer): failed to open stream: No such file or directory', 'APPPATH/Views/fe/tipGameLinks.php', 135, [])
+ 2 APPPATH/Views/fe/tipGameLinks.php(135): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/tipGameLinks.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/tipGameLinks', [], true)
+ 6 APPPATH/Controllers/FeView.php(18): view('fe/tipGameLinks')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->tipGameLinks()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

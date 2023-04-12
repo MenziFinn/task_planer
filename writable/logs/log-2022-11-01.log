@@ -1,0 +1,110 @@
+CRITICAL - 2022-11-01 09:25:16 --> Class 'App\Models\User' not found
+in APPPATH/Controllers/AccountController.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\AccountController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 17:17:13 --> syntax error, unexpected ';', expecting ')'
+in APPPATH/Controllers/Management.php on line 50.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Management.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Management')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Management')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Management')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Management', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 17:17:19 --> syntax error, unexpected ';'
+in APPPATH/Controllers/Management.php on line 61.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Management.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Management')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Management')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Management')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Management', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 17:19:45 --> Undefined property: App\Controllers\Management::$betting_model
+in APPPATH/Controllers/Management.php on line 55.
+ 1 APPPATH/Controllers/Management.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Management::$betting_model', 'APPPATH/Controllers/Management.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->SaveBetting()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 17:33:58 --> syntax error, unexpected ','
+in APPPATH/Controllers/Management.php on line 42.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Management.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Management')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Management')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Management')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Management', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 17:36:52 --> Trying to get property 'user_id' of non-object
+in APPPATH/Controllers/Management.php on line 31.
+ 1 APPPATH/Controllers/Management.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'user_id\' of non-object', 'APPPATH/Controllers/Management.php', 31, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->UpdateBetting()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 21:31:33 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Controllers/Management.php on line 26.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Management.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Management')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Management')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Management')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Management', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 21:31:42 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Controllers/Management.php on line 26.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Management.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Management')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Management')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Management')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Management', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 22:21:00 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::defaultLocale()
+in APPPATH/Views/be/Management.php on line 1.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Management', [], true)
+ 4 APPPATH/Controllers/Management.php(15): view('be/Management', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 22:21:07 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$defaultLocale
+in APPPATH/Views/be/Management.php on line 1.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Management', [], true)
+ 4 APPPATH/Controllers/Management.php(15): view('be/Management', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 22:22:34 --> syntax error, unexpected ';', expecting ')'
+in APPPATH/Views/be/Management.php on line 1.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Management', [], true)
+ 3 APPPATH/Controllers/Management.php(15): view('be/Management', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 22:22:39 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/be/Management.php on line 1.
+ 1 APPPATH/Views/be/Management.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/be/Management.php', 1, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/Management.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Management', [], true)
+ 5 APPPATH/Controllers/Management.php(15): view('be/Management', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Management->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Management))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

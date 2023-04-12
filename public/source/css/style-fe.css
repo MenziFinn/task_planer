@@ -1,0 +1,476 @@
+.home-title {
+    font-size: 28px;
+    text-align: center;
+    margin: 35px 0;
+    }
+
+.menu.sticky {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    animation: fadein 0.75s;
+    }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        }
+    to {
+        opacity: 1;
+        }
+    }
+
+
+/* bet links*/
+.bet-header {
+    padding: 5px;
+    border: 1px solid #222831;
+    background-color: #222831;
+    color: #fff;
+    margin: 0;
+    margin-top: 25px;
+    }
+
+.bet-link {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: 1px solid #222831;
+    padding: 25px 5px;
+    }
+
+.bet-link .logo {
+    padding-right: 5px;
+    text-align: center;
+    }
+
+.bet-link .logo img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    }
+
+.bet-link .logo a {
+    display: block;
+    text-decoration: none;
+    }
+
+.bet-link .logo a span {
+    padding: 3px 30px;
+    display: block;
+    color: orange;
+    border: 1px solid;
+    border-radius: 45px;
+    width: fit-content;
+    margin: 20px auto 0;
+    }
+
+.advance-disadvantage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    }
+
+.advance-disadvantage ul {
+    list-style: none;
+    font-size: 18px;
+    padding-left: 20px;
+    }
+
+.advance-disadvantage ul.advance li, .advance-disadvantage ul.disadvantage li {
+    position: relative;
+    }
+
+.advance-disadvantage ul.advance li:before {
+    content: '✓';
+    color: #36AE7C;
+    position: absolute;
+    left: -15px;
+    }
+
+.advance-disadvantage ul.disadvantage li:before {
+    content: "✗";
+    color: #EB5353;
+    padding-right: 10px;
+    position: absolute;
+    left: -15px;
+    }
+
+.overall.rating {
+    grid-column: 1 / span 2;
+    }
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #36ae7c;
+    border-radius: 50px;
+    }
+
+.strategy {
+    margin-bottom: 55px;
+    }
+
+
+/* header */
+.header-home {
+    height: 600px;
+    background-image: linear-gradient(180deg, #222831 0%, #55729d 100%);
+    position: relative;
+    overflow: hidden;
+    }
+
+.header-home .first-col {
+    padding: 150px 0;
+    }
+
+.header-home h1 {
+    border: none;
+    font-size: 42px;
+    margin: 0 auto;
+    z-index: 3;
+    color: #fff;
+    }
+
+.header-home p {
+    color: #fff;
+    margin: 20px 0;
+    }
+
+a.login {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 8px 60px;
+    border: 3px solid #fff;
+    color: #222831;
+    }
+
+a.register {
+    padding: 8px 60px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    color: #fff;
+    }
+
+.header {
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    }
+
+.header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: hsl(0deg 0% 0% / 35%);
+    pointer-events: none;
+    }
+
+.header h1 {
+    margin-bottom: 0;
+    border: none;
+    font-size: 43px;
+    color: #fff;
+    z-index: 1;
+    }
+
+.be-strategy {
+    background-image: url('../img/header/strategy.jpg');
+    }
+
+.be-contact {
+    background-image: url('../img/header/contact.jpg');
+    }
+
+.be-sportbet {
+    background-image: url('../img/header/sportbet.jpg');
+    }
+
+.be-strategy {
+    background-image: url('../img/header/strategy.jpg');
+    }
+
+.culd {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ffbe2f;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: culd 12s ease-in forwards infinite;
+    }
+
+.culd:nth-child(2) {
+    animation-delay: 1s;
+    top: 90%;
+    left: 10%;
+    border-radius: 100%;
+    }
+
+.culd:nth-child(3) {
+    animation-delay: 2s;
+    top: 10%;
+    left: 50%;
+    }
+
+.culd:nth-child(4) {
+    animation-delay: 2s;
+    top: 50%;
+    left: 60%;
+    border-radius: 100%;
+    }
+
+.culd:nth-child(5) {
+    animation-delay: 3.5s;
+    top: 40%;
+    left: 90%;
+    }
+
+.culd:nth-child(6) {
+    animation-delay: 5s;
+    top: 20%;
+    left: 90%;
+    border-radius: 100%;
+    }
+
+.culd:nth-child(7) {
+    animation-delay: 5.5s;
+    top: 70%;
+    left: 74%;
+    }
+
+.culd:nth-child(8) {
+    animation-delay: 7s;
+    top: 35%;
+    left: 45%;
+    border-radius: 100%;
+    }
+
+@keyframes culd {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+        }
+    to {
+        transform: scale(20) rotate(360deg) translate(-50%, -50%);
+        opacity: 0;
+        }
+    }
+
+
+
+
+/* slider */
+.view-be {
+    height: 500px;
+    width: 100%;
+    background-color: #2C3E50;
+    margin: 40px 0;
+    }
+
+.slides {
+    display: none;
+    width: 85%;
+    margin: 0 auto;
+    height: 460px;
+    }
+
+.slides .section-two {
+    grid-template-columns: 30% 70%;
+    margin-bottom: 0;
+    }
+
+.slides .section-two .text {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.slides .text h3 {
+    font-size: 28px;
+    color: #fff;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    }
+
+.slides .text p {
+    color: white;
+    }
+
+.slides img {
+    width: 100%;
+    height: 460px;
+
+    }
+
+.slides-button-left, .slides-button-right {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #2C3E50;
+    }
+
+.slides-button-right {
+    right: 0;
+    }
+
+/* features-box */
+
+.features {
+    text-align: center;
+    }
+
+.features img {
+    width: 125px;
+    }
+
+.features h3 {
+    font-size: 30px;
+    }
+
+.features-box {
+    border: 1px solid #2c3e500f;
+    box-shadow: rgb(47 71 94 / 20%) 0px 7px 29px 0px;
+    padding: 25px;
+    width: 300px;
+    margin: 0 auto;
+    }
+
+
+/* advance section */
+.advance img {
+    width: 100%;
+    }
+
+.advance-list li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    }
+
+.advance-list li:before {
+    content: '✓';
+    color: #36AE7C;
+    position: absolute;
+    left: -25px;
+    }
+
+/* form */
+.inner form input, form textarea {
+    display: block;
+    margin: 0 0 10px;
+    border: 1px solid #2C3E50;
+    padding: 6px 12px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+.inner form input[type="submit"] {
+    background: #2C3E50;
+    color: #fff;
+
+    }
+
+@media (max-width: 1250px) {
+    .header-home {
+        height: 400px;
+        }
+
+    .header-home .first-col {
+        padding: 40px 0;
+        }
+
+    .header-home h1 {
+        border: none;
+        font-size: 37px;
+        }
+
+    a.register {
+        margin-top: 25px;
+        display: block;
+        width: fit-content;
+        }
+
+    .features-box {
+        width: auto;
+        }
+
+    .features img {
+        width: 100px;
+        }
+
+    .slides .text {
+        text-align: center;
+        }
+
+    .slides .section-two {
+        display: block;
+        }
+
+    .slides img {
+        width: auto;
+        height: 300px;
+        }
+
+    .slides .img {
+        text-align: center;
+        margin-top: 45px;
+        }
+
+    .advance .section-two {
+        grid-template-columns: 40% 60%;
+        }
+    }
+
+@media (max-width: 750px) {
+    body .section-three, .advance .section-two, #header .section-two {
+        display: block;
+        }
+
+    #header .second-col {
+        display: none;
+        }
+
+    .features-box {
+        margin-bottom: 20px;
+        }
+
+    .slides img {
+        width: 100%;
+        height: auto;
+        }
+
+    .slides-button-left, .slides-button-right {
+        top: auto;
+        bottom: 30px;
+        }
+
+    .slides-button-left {
+        left: 20%;
+        }
+
+    .slides-button-right {
+        right: 20%;
+        }
+    }
+
+

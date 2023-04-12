@@ -1,0 +1,420 @@
+CRITICAL - 2022-09-29 13:10:32 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 13:10:41 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:42:44 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:42:56 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:44:25 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:45:01 --> Undefined property: stdClass::$games
+in APPPATH/Controllers/Api.php on line 48.
+ 1 APPPATH/Controllers/Api.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$games', 'APPPATH/Controllers/Api.php', 48, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:46:36 --> Undefined property: stdClass::$players
+in APPPATH/Controllers/Api.php on line 57.
+ 1 APPPATH/Controllers/Api.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$players', 'APPPATH/Controllers/Api.php', 57, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:47:02 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:47:32 --> Undefined property: stdClass::$game_spotlight
+in APPPATH/Controllers/Api.php on line 48.
+ 1 APPPATH/Controllers/Api.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$game_spotlight', 'APPPATH/Controllers/Api.php', 48, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:50:10 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:50:22 --> Undefined property: stdClass::$game_spotlight
+in APPPATH/Controllers/Api.php on line 45.
+ 1 APPPATH/Controllers/Api.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$game_spotlight', 'APPPATH/Controllers/Api.php', 45, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:50:50 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:51:02 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:51:18 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:55:53 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:09:47 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:14:11 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(27): SerpApiSearch->get_json([...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:24:12 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 63.
+ 1 APPPATH/Controllers/Api.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 63, [...])
+ 2 APPPATH/Controllers/Api.php(13): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:24:59 --> Undefined property: stdClass::$thumbnail
+in APPPATH/Controllers/Api.php on line 26.
+ 1 APPPATH/Controllers/Api.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$thumbnail', 'APPPATH/Controllers/Api.php', 26, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:25:59 --> Undefined property: stdClass::$thumbnail
+in APPPATH/Controllers/Api.php on line 18.
+ 1 APPPATH/Controllers/Api.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$thumbnail', 'APPPATH/Controllers/Api.php', 18, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:30:35 --> Undefined property: stdClass::$date
+in APPPATH/Controllers/Api.php on line 26.
+ 1 APPPATH/Controllers/Api.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$date', 'APPPATH/Controllers/Api.php', 26, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:35:14 --> Undefined property: stdClass::$date
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$date', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:35:54 --> date() expects at least 1 parameter, 0 given
+in APPPATH/Controllers/Api.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects at least 1 parameter, 0 given', 'APPPATH/Controllers/Api.php', 26, [...])
+ 2 APPPATH/Controllers/Api.php(26): date()
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:54:21 --> Array to string conversion
+in APPPATH/Controllers/Api.php on line 55.
+ 1 APPPATH/Controllers/Api.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Api.php', 55, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:36:39 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH/Controllers/Api.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH/Controllers/Api.php', 14, [])
+ 2 APPPATH/Controllers/Api.php(14): json_decode([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:38:05 --> Undefined property: App\Controllers\Api::$searchPlayer
+in APPPATH/Controllers/Api.php on line 15.
+ 1 APPPATH/Controllers/Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Api::$searchPlayer', 'APPPATH/Controllers/Api.php', 15, [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:38:57 --> Undefined property: App\Controllers\Api::$searchPlayer
+in APPPATH/Controllers/Api.php on line 15.
+ 1 APPPATH/Controllers/Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Api::$searchPlayer', 'APPPATH/Controllers/Api.php', 15, [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:39:38 --> Undefined property: App\Controllers\Api::$searchPlayer
+in APPPATH/Controllers/Api.php on line 15.
+ 1 APPPATH/Controllers/Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Api::$searchPlayer', 'APPPATH/Controllers/Api.php', 15, [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:39:48 --> Undefined property: App\Controllers\Api::$searchPlayer
+in APPPATH/Controllers/Api.php on line 15.
+ 1 APPPATH/Controllers/Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Api::$searchPlayer', 'APPPATH/Controllers/Api.php', 15, [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:39:55 --> Undefined property: App\Controllers\Api::$searchPlayer
+in APPPATH/Controllers/Api.php on line 15.
+ 1 APPPATH/Controllers/Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Api::$searchPlayer', 'APPPATH/Controllers/Api.php', 15, [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:41:29 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(87): SerpApiSearch->get_json([...])
+ 4 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest(null)
+ 5 APPPATH/Controllers/Api.php(15): App\Controllers\Api->searchPlayer()
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:42:45 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(87): SerpApiSearch->get_json([...])
+ 4 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest(null)
+ 5 APPPATH/Controllers/Api.php(15): App\Controllers\Api->searchPlayer()
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:42:55 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(87): SerpApiSearch->get_json([...])
+ 4 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest(null)
+ 5 APPPATH/Controllers/Api.php(15): App\Controllers\Api->searchPlayer()
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:45:19 --> Too few arguments to function App\Controllers\Api::searchPlayer(), 0 passed in /var/www/html/app/Controllers/Api.php on line 16 and exactly 1 expected
+in APPPATH/Controllers/Api.php on line 19.
+ 1 APPPATH/Controllers/Api.php(16): App\Controllers\Api->searchPlayer()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:45:49 --> Too few arguments to function App\Controllers\Api::searchPlayer(), 0 passed in /var/www/html/app/Controllers/Api.php on line 16 and exactly 1 expected
+in APPPATH/Controllers/Api.php on line 19.
+ 1 APPPATH/Controllers/Api.php(16): App\Controllers\Api->searchPlayer()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:46:17 --> Undefined variable: player_one
+in APPPATH/Controllers/Api.php on line 16.
+ 1 APPPATH/Controllers/Api.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: player_one', 'APPPATH/Controllers/Api.php', 16, [])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:46:36 --> Too few arguments to function App\Controllers\Api::searchPlayer(), 0 passed in /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php on line 907 and exactly 1 expected
+in APPPATH/Controllers/Api.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:56:16 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(86): SerpApiSearch->get_json([...])
+ 4 APPPATH/Controllers/Api.php(20): App\Controllers\Api->apiRequest('ROOTPATH/public')
+ 5 APPPATH/Controllers/Api.php(16): App\Controllers\Api->searchPlayer('ROOTPATH/public')
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 20:56:19 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(86): SerpApiSearch->get_json([...])
+ 4 APPPATH/Controllers/Api.php(20): App\Controllers\Api->apiRequest('ROOTPATH/public')
+ 5 APPPATH/Controllers/Api.php(16): App\Controllers\Api->searchPlayer('ROOTPATH/public')
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->search()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:19:09 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 85.
+ 1 APPPATH/Controllers/Api.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 85, [...])
+ 2 APPPATH/Controllers/Api.php(20): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:19:11 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 85.
+ 1 APPPATH/Controllers/Api.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 85, [...])
+ 2 APPPATH/Controllers/Api.php(20): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:20:14 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:23:24 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest('Sinner 30.9.2022')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:29:26 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(55): App\Controllers\Api->apiRequest(' vs ')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeam()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:29:27 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(55): App\Controllers\Api->apiRequest(' vs ')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeam()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:29:49 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(55): App\Controllers\Api->apiRequest(' vs ')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeam()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:30:31 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(55): App\Controllers\Api->apiRequest(' vs ')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeam()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:37:05 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(85): SerpApiSearch->get_json([...])
+ 4 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest('ROOTPATH/public')
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:43:57 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:43:59 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:44:01 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:44:25 --> Missing query `q` parameter.
+in APPPATH/Controllers/google-search-results.php on line 294.
+ 1 APPPATH/Controllers/google-search-results.php(255): SerpApiSearch->query('/search', 'json', [...])
+ 2 APPPATH/Controllers/google-search-results.php(215): SerpApiSearch->search('json', [...])
+ 3 APPPATH/Controllers/Api.php(85): SerpApiSearch->get_json([...])
+ 4 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest(null)
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:44:46 --> Undefined property: stdClass::$sports_results
+in APPPATH/Controllers/Api.php on line 86.
+ 1 APPPATH/Controllers/Api.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sports_results', 'APPPATH/Controllers/Api.php', 86, [...])
+ 2 APPPATH/Controllers/Api.php(21): App\Controllers\Api->apiRequest('Sinner')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 21:45:31 --> Undefined property: stdClass::$thumbnail
+in APPPATH/Controllers/Api.php on line 43.
+ 1 APPPATH/Controllers/Api.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$thumbnail', 'APPPATH/Controllers/Api.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

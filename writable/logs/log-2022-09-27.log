@@ -1,0 +1,206 @@
+CRITICAL - 2022-09-27 20:59:38 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 22.
+ 1 APPPATH/Controllers/Api.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 22, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:00:33 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:01:25 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:02:03 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:02:16 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:02:22 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:02:56 --> syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Controllers/Api.php on line 22.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Api/searchTeamOrPlayer')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('Api/searchTeamOrPlayer')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('Api/searchTeamOrPlayer')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:03:55 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 22.
+ 1 APPPATH/Controllers/Api.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 22, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:05:04 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:10:20 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:11:08 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:11:52 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:14:06 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:16:23 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:20:52 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:21:54 --> Undefined variable: player_name
+in APPPATH/Controllers/Api.php on line 23.
+ 1 APPPATH/Controllers/Api.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: player_name', 'APPPATH/Controllers/Api.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:33:52 --> preg_replace(): Unknown modifier '*'
+in APPPATH/Controllers/Api.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'*\'', 'APPPATH/Controllers/Api.php', 21, [...])
+ 2 APPPATH/Controllers/Api.php(21): preg_replace('"("*', 'ROOTPATH/public', 'Luik Aivi (BK Häcken F)')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:34:00 --> preg_replace(): No ending matching delimiter ')' found
+in APPPATH/Controllers/Api.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending matching delimiter \')\' found', 'APPPATH/Controllers/Api.php', 21, [...])
+ 2 APPPATH/Controllers/Api.php(21): preg_replace('(*', 'ROOTPATH/public', 'Luik Aivi (BK Häcken F)')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:34:04 --> preg_replace(): No ending matching delimiter ')' found
+in APPPATH/Controllers/Api.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending matching delimiter \')\' found', 'APPPATH/Controllers/Api.php', 21, [...])
+ 2 APPPATH/Controllers/Api.php(21): preg_replace('(*', 'ROOTPATH/public', 'Luik Aivi (BK Häcken F)')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:36:19 --> preg_replace(): No ending matching delimiter ')' found
+in APPPATH/Controllers/Api.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending matching delimiter \')\' found', 'APPPATH/Controllers/Api.php', 21, [...])
+ 2 APPPATH/Controllers/Api.php(21): preg_replace('(', 'ROOTPATH/public', 'Luik Aivi (BK Häcken F)')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:36:29 --> preg_replace(): No ending matching delimiter ')' found
+in APPPATH/Controllers/Api.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending matching delimiter \')\' found', 'APPPATH/Controllers/Api.php', 21, [...])
+ 2 APPPATH/Controllers/Api.php(21): preg_replace('(', 'ROOTPATH/public', 'Luik Aivi (BK Häcken F)')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:40:40 --> Undefined variable: player_name
+in APPPATH/Controllers/Api.php on line 24.
+ 1 APPPATH/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: player_name', 'APPPATH/Controllers/Api.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 21:58:00 --> Undefined variable: player_name
+in APPPATH/Controllers/Api.php on line 28.
+ 1 APPPATH/Controllers/Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: player_name', 'APPPATH/Controllers/Api.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:00:02 --> syntax error, unexpected ';', expecting ')'
+in APPPATH/Controllers/Api.php on line 31.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Api/searchTeamOrPlayer')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('Api/searchTeamOrPlayer')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('Api/searchTeamOrPlayer')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:02:31 --> explode(): Empty delimiter
+in APPPATH/Controllers/Api.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode(): Empty delimiter', 'APPPATH/Controllers/Api.php', 27, [...])
+ 2 APPPATH/Controllers/Api.php(27): explode('ROOTPATH/public', 'Luik Aivi')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:43:41 --> Trying to get property 'NAME' of non-object
+in APPPATH/Controllers/Api.php on line 36.
+ 1 APPPATH/Controllers/Api.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'NAME\' of non-object', 'APPPATH/Controllers/Api.php', 36, [...])
+ 2 APPPATH/Controllers/Api.php(13): App\Controllers\Api->getPlayer(null)
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:44:02 --> Undefined offset: 1
+in APPPATH/Controllers/Api.php on line 45.
+ 1 APPPATH/Controllers/Api.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Api.php', 45, [...])
+ 2 APPPATH/Controllers/Api.php(13): App\Controllers\Api->getPlayer('Psg')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 22:44:38 --> Trying to get property 'FAVOURITE_KEY' of non-object
+in APPPATH/Controllers/Api.php on line 14.
+ 1 APPPATH/Controllers/Api.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'FAVOURITE_KEY\' of non-object', 'APPPATH/Controllers/Api.php', 14, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

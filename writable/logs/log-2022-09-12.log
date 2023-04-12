@@ -1,0 +1,370 @@
+CRITICAL - 2022-09-12 00:21:45 --> Array to string conversion
+in APPPATH/Views/Settings.php on line 8.
+ 1 APPPATH/Views/Settings.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/Settings.php', 8, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Settings.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('Settings', [], true)
+ 5 APPPATH/Controllers/Settings.php(18): view('Settings', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Settings->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 00:22:06 --> Array to string conversion
+in APPPATH/Views/Settings.php on line 8.
+ 1 APPPATH/Views/Settings.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/Settings.php', 8, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Settings.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('Settings', [], true)
+ 5 APPPATH/Controllers/Settings.php(18): view('Settings', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Settings->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 00:32:32 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+in APPPATH/Views/index.php on line 142.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-12 00:36:23 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `setting...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `setting...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/framework/system/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /var/www/html/vendor/codeigniter4/framework/system/Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /var/www/html/app/Controllers/Settings.php(32): CodeIgniter\Model->update()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\Settings->SaveSettings()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-12 00:36:23 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\'
+WHERE `user_id` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\'
+WHERE `user_id` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\'
+WHERE `user_id` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `currency` = :currency:, `sport_autofill` = :sport_autofill:
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(865): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/Settings.php(32): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Settings->SaveSettings()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-12 00:40:03 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `setting...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `setting...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/framework/system/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /var/www/html/vendor/codeigniter4/framework/system/Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /var/www/html/app/Controllers/Settings.php(32): CodeIgniter\Model->update()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\Settings->SaveSettings()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-12 00:40:03 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\', `combination` = \'1\'
+WHERE `user_id` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\', `combination` = \'1\'
+WHERE `user_id` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\', `combination` = \'1\'
+WHERE `user_id` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `currency` = :currency:, `sport_autofill` = :sport_autofill:, `combination` = :combination:
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(865): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/Settings.php(32): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Settings->SaveSettings()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 00:40:06 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1577.
+ 1 SYSTEMPATH/BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update(null, null)
+ 4 APPPATH/Controllers/Settings.php(32): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Settings->SaveSettings()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-12 00:40:25 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `setting...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `setting...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/framework/system/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /var/www/html/vendor/codeigniter4/framework/system/Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /var/www/html/app/Controllers/Settings.php(32): CodeIgniter\Model->update()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\Settings->SaveSettings()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-12 00:40:25 --> Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\', `combination` = \'1\'
+WHERE `user_id` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\', `combination` = \'1\'
+WHERE `user_id` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `settings` SET `currency` = \'CHF\', `sport_autofill` = \'Tennis\', `combination` = \'1\'
+WHERE `user_id` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `settings` SET `currency` = :currency:, `sport_autofill` = :sport_autofill:, `combination` = :combination:
+WHERE `user_id` = :user_id:', [...], false)
+ 5 SYSTEMPATH/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(865): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/Settings.php(32): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Settings->SaveSettings()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 01:10:52 --> Invalid file: \app\Views\login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\app\\Views\\login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('\\app\\Views\\login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('\\app\\Views\\login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 01:11:09 --> Invalid file: app\Views\login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('app\\Views\\login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('app\\Views\\login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 01:49:55 --> Too few arguments to function CodeIgniter\View\View::section(), 0 passed in /var/www/html/app/Views/Login.php on line 2 and exactly 1 expected
+in SYSTEMPATH/View/View.php on line 373.
+ 1 APPPATH/Views/Login.php(2): CodeIgniter\View\View->section()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:41:49 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 2.
+ 1 APPPATH/Views/fe/strategy.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 2, [])
+ 2 APPPATH/Views/fe/strategy.php(2): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:42:11 --> require(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 2.
+ 1 APPPATH/Views/fe/strategy.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 2, [])
+ 2 APPPATH/Views/fe/strategy.php(2): require()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:42:12 --> require(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 2.
+ 1 APPPATH/Views/fe/strategy.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 2, [])
+ 2 APPPATH/Views/fe/strategy.php(2): require()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:43:20 --> syntax error, unexpected ':'
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 3 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:44:18 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:44:19 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:45:00 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:45:00 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:45:02 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:46:08 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:46:27 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:46:39 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:46:44 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:47:16 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:50:09 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:50:51 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-12 18:50:52 --> include(../header.php): failed to open stream: No such file or directory
+in APPPATH/Views/fe/strategy.php on line 3.
+ 1 APPPATH/Views/fe/strategy.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): failed to open stream: No such file or directory', 'APPPATH/Views/fe/strategy.php', 3, [])
+ 2 APPPATH/Views/fe/strategy.php(3): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/fe/strategy.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/strategy', [], true)
+ 6 APPPATH/Controllers/FeView.php(14): view('fe/strategy')
+ 7 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->strategy()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -5,16 +5,43 @@ namespace Config;
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
+// Load the system's routing file first, so that the app and ENVIRONMENT
+// can override as needed.
+if (is_file(SYSTEMPATH . 'Config/Routes.php')) {
+    require SYSTEMPATH . 'Config/Routes.php';
+}
+
 /*
  * --------------------------------------------------------------------
  * Router Setup
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('FeView');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
+
+$routes->setAutoRoute(true);
+
+
+//GET CRUD
+$routes->get('/', 'Home::index');
+$routes->get("Read/(:any)/(:any)", "CRUD::read/$1/$2");
+
+//POST CRUD
+$routes->post("(:any)/Save/(:any)", "CRUD::Save/$1/$2",);
+
+
+//Account be
+$routes->get("Account/Dashboard/", "Dashboard::index", ["filter" => "checkauth"]);
+
+//Account be forms/ajax
+
+//Fe
+$routes->get('/', 'FeView::index');
+
+
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
@@ -30,15 +57,9 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-//GET
-$routes->get('/', 'Home::index');
-$routes->get("Read/(:any)/(:any)", "CRUD::read/$1/$2");
+//$routes->get('Statistics', 'Statistics::index');
 
-//POST
-$routes->post("$1/Save/$2", "CRUD::Save/$1/$2",);
-
-
-//service('auth')->routes($routes);
+service('auth')->routes($routes);
 
 /*
  * --------------------------------------------------------------------

@@ -1,0 +1,18 @@
+CRITICAL - 2022-09-24 15:30:48 --> Class 'App\Controllers\HttpRequest' not found
+in APPPATH/Controllers/FeView.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 15:30:50 --> Class 'App\Controllers\HttpRequest' not found
+in APPPATH/Controllers/FeView.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-24 15:30:58 --> Class 'HttpRequest' not found
+in APPPATH/Controllers/FeView.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,10 +1,14 @@
 # Disable directory browsing
-Options -Indexes
+Options All -Indexes
 
 # ----------------------------------------------------------------------
 # Rewrite engine
 # ----------------------------------------------------------------------
-
+<IfModule mod_deflate.c>
+<FilesMatch "\.(js|css|html|htm|php|json|xml|jpg|jpeg|gif|raw)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>
 # Turning on the rewrite engine is necessary for the following rules and features.
 # FollowSymLinks must be enabled for this to work.
 <IfModule mod_rewrite.c>

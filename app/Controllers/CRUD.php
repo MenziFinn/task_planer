@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class CRUD extends BaseController {
+class CRUD extends AccountController {
     public function create($table, $id) {
         $model = $this->responseModel($table);
         $entity = $this->responseEntity($table);

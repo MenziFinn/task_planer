@@ -1,0 +1,417 @@
+CRITICAL - 2022-09-20 16:35:09 --> Invalid file: ../Views/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:37:09 --> Invalid file: ../Views/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:38:01 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:38:19 --> include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:39:34 --> include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:40:06 --> include(/var/www/html/app/Views/be/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/be/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/be/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:40:08 --> include(/var/www/html/app/Views/be/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/be/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/be/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:40:31 --> Invalid file: ../Views/be/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/be/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/be/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/be/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:40:58 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:41:05 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:41:06 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:41:13 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:41:33 --> include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:03 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:04 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:09 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:11 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:16 --> include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:18 --> include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/fe/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:23 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:43:25 --> Invalid file: ../Views/fe/Login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/fe/Login.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/fe/Login', [], true)
+ 3 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/fe/Login')
+ 4 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 16:46:46 --> include(header-inc.php): failed to open stream: No such file or directory
+in APPPATH/Views/Login.php on line 6.
+ 1 APPPATH/Views/Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header-inc.php): failed to open stream: No such file or directory', 'APPPATH/Views/Login.php', 6, [])
+ 2 APPPATH/Views/Login.php(6): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 6 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 7 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:55:57 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:56:00 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:57:12 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:57:37 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:57:50 --> Invalid file: be/statistics.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('be/statistics.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 3 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:57:51 --> Invalid file: be/statistics.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('be/statistics.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 3 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:57:56 --> Invalid file: be/statistics.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('be/statistics.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 3 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:59:07 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('/be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('/be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:59:11 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('/be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('/be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:59:18 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:59:34 --> Invalid file: asdf.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('asdf.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('asdf', [], true)
+ 3 APPPATH/Controllers/Statistics.php(17): view('asdf')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 20:59:41 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 21:00:23 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 21:00:24 --> include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/be/statistics.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [...])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/statistics', [], true)
+ 5 APPPATH/Controllers/Statistics.php(18): view('be/statistics', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Statistics->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Statistics))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 21:44:43 --> include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 21:48:32 --> include(footer.php): failed to open stream: No such file or directory
+in APPPATH/Views/Login.php on line 130.
+ 1 APPPATH/Views/Login.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): failed to open stream: No such file or directory', 'APPPATH/Views/Login.php', 130, [])
+ 2 APPPATH/Views/Login.php(130): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 6 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 7 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 21:49:54 --> include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 22:12:50 --> include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 22:12:52 --> include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory
+in SYSTEMPATH/View/View.php on line 213.
+ 1 SYSTEMPATH/View/View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/var/www/html/app/Views/Login.php): failed to open stream: No such file or directory', 'SYSTEMPATH/View/View.php', 213, [])
+ 2 SYSTEMPATH/View/View.php(213): include()
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(34): view('../Views/Login')
+ 6 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

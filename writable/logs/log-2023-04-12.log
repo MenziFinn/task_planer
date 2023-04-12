@@ -1,0 +1,319 @@
+CRITICAL - 2023-04-12 17:01:46 --> Unterminated comment starting line 13
+in APPPATH/Views/fe/footer.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('fe/home', [], true)
+ 4 APPPATH/Controllers/FeView.php(18): view('fe/home')
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-12 17:01:56 --> Error connecting to the database: ErrorException: Uninitialized string offset 0 in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:82
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', '/var/www/html/v...', 82)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(163): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(41): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#6 /var/www/html/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#7 /var/www/html/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(21): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#8 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(643): setting('Auth.sessionCon...')
+#9 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(661): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#10 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(367): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionKey('id')
+#11 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(351): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#12 /var/www/html/vendor/codeigniter4/shield/src/Auth.php(159): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#13 /var/www/html/vendor/codeigniter4/shield/src/Controllers/RegisterController.php(32): CodeIgniter\Shield\Auth->__call('loggedIn', Array)
+#14 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+#15 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+#16 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2023-04-12 17:01:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Uninitialized string offset 0
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', [], false)
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(163): CodeIgniter\Database\BaseBuilder->get()
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(41): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 5 VENDORPATH/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 6 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(21): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(643): setting('Auth.sessionConfig')
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(661): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(367): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionKey('id')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(351): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+11 VENDORPATH/codeigniter4/shield/src/Auth.php(159): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+12 VENDORPATH/codeigniter4/shield/src/Controllers/RegisterController.php(32): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+13 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+14 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+15 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-12 17:02:53 --> mysqli_sql_exception: Table 'db.settings' doesn't exist in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(163): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(41): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#6 /var/www/html/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#7 /var/www/html/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(21): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#8 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(643): setting('Auth.sessionCon...')
+#9 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(661): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#10 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(367): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionKey('id')
+#11 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(351): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#12 /var/www/html/vendor/codeigniter4/shield/src/Auth.php(159): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#13 /var/www/html/vendor/codeigniter4/shield/src/Controllers/RegisterController.php(32): CodeIgniter\Shield\Auth->__call('loggedIn', Array)
+#14 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+#15 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+#16 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2023-04-12 17:02:53 --> Table 'db.settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(163): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(41): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(21): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(643): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(661): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(367): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(351): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(159): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 VENDORPATH/codeigniter4/shield/src/Controllers/RegisterController.php(32): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+16 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+17 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-12 17:02:53 --> mysqli_sql_exception: Table 'db.settings' doesn't exist in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(163): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(41): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#6 /var/www/html/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#7 /var/www/html/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(21): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#8 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(643): setting('Auth.sessionCon...')
+#9 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(661): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#10 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(367): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionKey('id')
+#11 /var/www/html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(351): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#12 /var/www/html/vendor/codeigniter4/shield/src/Auth.php(159): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#13 /var/www/html/vendor/codeigniter4/shield/src/Controllers/RegisterController.php(32): CodeIgniter\Shield\Auth->__call('loggedIn', Array)
+#14 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+#15 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+#16 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /var/www/html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2023-04-12 17:02:53 --> Table 'db.settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(163): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(41): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(21): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(643): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(661): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(367): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(351): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(159): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 VENDORPATH/codeigniter4/shield/src/Controllers/RegisterController.php(32): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+16 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+17 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 17:04:01 --> Unterminated comment starting line 13
+in APPPATH/Views/fe/footer.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 4 VENDORPATH/codeigniter4/shield/src/Controllers/RegisterController.php(50): view('../Views/Login')
+ 5 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 17:06:45 --> include(fe/menu.php): Failed to open stream: No such file or directory
+in APPPATH/Views/Login.php on line 7.
+ 1 APPPATH/Views/Login.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(fe/menu.php): Failed to open stream: No such file or directory', 'APPPATH/Views/Login.php', 7)
+ 2 APPPATH/Views/Login.php(7): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('../Views/Login', [], true)
+ 6 VENDORPATH/codeigniter4/shield/src/Controllers/RegisterController.php(50): view('../Views/Login')
+ 7 SYSTEMPATH/CodeIgniter.php(907): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 17:13:38 --> Invalid file: register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH/Controllers/FeView.php(11): view('register')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\FeView->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeView))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:00:59 --> Undefined property: App\Controllers\Dashboard::$bettings_model
+in APPPATH/Controllers/Dashboard.php on line 11.
+ 1 APPPATH/Controllers/Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$bettings_model', 'APPPATH/Controllers/Dashboard.php', 11)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:01:21 --> Undefined variable $wealth
+in APPPATH/Views/be/Dashboard.php on line 31.
+ 1 APPPATH/Views/be/Dashboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wealth', 'APPPATH/Views/be/Dashboard.php', 31)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/Dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Dashboard', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(14): view('be/Dashboard', [])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:29 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::img')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:29 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::img')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:29 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::img')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:29 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::img')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:30 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::img')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:30 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:30 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:30 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:02:30 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:03:06 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::img')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:03:06 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::img')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:03:06 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:03:06 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:03:06 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 19:03:07 --> Invalid file: error_pages/404.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_pages/404.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('error_pages/404', [], true)
+ 3 APPPATH/Config/Routes.php(24): view('error_pages/404')
+ 4 SYSTEMPATH/CodeIgniter.php(926): CodeIgniter\CodeIgniter->Config\{closure}('Controller or its method is not found: \\App\\Controllers\\Source::fa-icon')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

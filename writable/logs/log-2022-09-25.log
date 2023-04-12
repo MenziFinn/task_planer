@@ -1,0 +1,64 @@
+CRITICAL - 2022-09-25 20:16:01 --> Invalid argument supplied for foreach()
+in APPPATH/Controllers/Api.php on line 37.
+ 1 APPPATH/Controllers/Api.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Controllers/Api.php', 37, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:16:39 --> Invalid argument supplied for foreach()
+in APPPATH/Controllers/Api.php on line 37.
+ 1 APPPATH/Controllers/Api.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Controllers/Api.php', 37, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:19:21 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Api.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:19:46 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Api.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:19:57 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Api.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:45:20 --> syntax error, unexpected ':'
+in APPPATH/Controllers/Api.php on line 23.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Api/searchTeamOrPlayer')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('Api/searchTeamOrPlayer')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('Api/searchTeamOrPlayer')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:45:39 --> explode() expects at least 2 parameters, 1 given
+in APPPATH/Controllers/Api.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects at least 2 parameters, 1 given', 'APPPATH/Controllers/Api.php', 20, [...])
+ 2 APPPATH/Controllers/Api.php(20): explode('Luik Aivi (BK Häcken F)')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:45:57 --> explode(): Empty delimiter
+in APPPATH/Controllers/Api.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode(): Empty delimiter', 'APPPATH/Controllers/Api.php', 20, [...])
+ 2 APPPATH/Controllers/Api.php(20): explode('ROOTPATH/public', 'Luik Aivi (BK Häcken F)')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Api->searchTeamOrPlayer()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 20:50:34 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Controllers/Api.php on line 22.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Api/searchTeamOrPlayer')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('Api/searchTeamOrPlayer')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('Api/searchTeamOrPlayer')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
