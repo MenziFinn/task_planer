@@ -26,17 +26,17 @@ $routes->setAutoRoute(true);
 
 
 //GET CRUD
-$routes->get('/', 'Home::index');
-$routes->get("Read/(:any)/(:any)", "CRUD::read/$1/$2");
+$routes->get('/', 'FeView::index');
 
 //POST CRUD
-$routes->post("(:any)/Save/(:any)", "CRUD::Save/$1/$2",);
-
+$routes->post("Save/(:any)", "CRUD::create/$1", ["filter" => "checkauth"]);
 
 //Account be
-$routes->get("Account/Dashboard/", "Dashboard::index", ["filter" => "checkauth"]);
+$routes->get("Account/Task/", "Task::index", ["filter" => "checkauth"]);
 
 //Account be forms/ajax
+$routes->post("Task/Edit/(:any)", "Task::updateAjax/$1", ["filter" => "checkauth"]);
+$routes->post("Task/Delete/(:any)", "Task::deleteAjax/$1", ["filter" => "checkauth"]);
 
 //Fe
 $routes->get('/', 'FeView::index');

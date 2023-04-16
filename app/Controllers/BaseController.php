@@ -49,7 +49,5 @@ abstract class BaseController extends Controller {
         $this->session = \Config\Services::session();
         $this->language = \Config\Services::language();
         $this->language->setLocale($this->session->lang);
-
-
     }
 }

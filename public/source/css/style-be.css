@@ -113,3 +113,8 @@ body.sidebar-icon-only .lang {
     justify-items: center;
     padding-left: 20px;
     }
+
+
+.main-panel{
+    padding-top: 0 !important;
+    }

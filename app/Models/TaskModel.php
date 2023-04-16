@@ -1,34 +1,31 @@
 <?php
+namespace App\Models;
 
+use CodeIgniter\Model;
 
 class TaskModel extends BaseModel {
-    protected $table = 'tasks';
+    protected $table = 'task';
     protected $primaryKey = 'id';
-
-    protected $returnType = 'App\Entities\Tasks';
+    protected $returnType = 'App\Entities\Task';
 
     protected $useSoftDeletes = false;
 
     protected $allowedFields = [
         'id',
-        'title',
+        'end',
+        'start',
         'description',
-        'due_date',
-        'completed'
+        'priority',
+        'status',
+        'user_id',
+        'title',
     ];
 
     protected $useTimestamps = false;
     protected $createdField = 'created_at';
     protected $updatedField = 'updated_at';
     protected $deletedField = '';
-
-    protected $validationRules = [
-        'id' => 'require',
-        'title' => 'require',
-        'description' => 'require',
-        'due_date' => 'require',
-        'completed' => 'require'
-    ];
+    protected $validationRules = [];
     protected $validationMessages = [];
     protected $skipValidation = false;
 
@@ -38,12 +35,12 @@ class TaskModel extends BaseModel {
      * @return array|false
      */
 
-    public function getSettingsByUserId($user_id = false) {
+    public function getTasksByUser($user_id = false) {
         if ($user_id === false) {
             return false;
         }
 
-        return $this->asObject('App\Entities\Settings')->where(['id' => $user_id])->first();
+        return $this->asObject('App\Entities\Task')->where(['id' => $user_id])->first();
     }
 
 }

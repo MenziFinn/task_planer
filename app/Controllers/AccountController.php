@@ -40,11 +40,9 @@ class AccountController extends BaseController {
 
         //init Session
         $this->user_id = $this->session->get('user')['id'];
-
+        
         // init Models
 
-
         // init Entities
-
     }
 }

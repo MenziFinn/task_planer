@@ -35,3 +35,4 @@
 <link rel="stylesheet" href="<?= site_url() ?>source/css/style-be.css">
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

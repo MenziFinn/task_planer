@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 class CRUD extends AccountController {
-    public function create($table, $id) {
+    public function create($table) {
         $model = $this->responseModel($table);
         $entity = $this->responseEntity($table);
 
@@ -11,23 +11,24 @@ class CRUD extends AccountController {
             $entity->$key = $item;
         endforeach;
 
-        //save $id = xy;
-        // wen es de itrag scho git den mach update und save
+        $entity->user_id = $this->user_id;
+
         $model->save($entity);
+
+        return redirect()->back();
     }
 
-    public function read($table, $id) {
-        //dynamisch model aus url (im Config/Routes.php kasch luege wie es ufbaut isch und wie zum wert kunsch)
+    public function read($table, $id = false) {
         $model = $this->responseModel($table);
 
-        //Im Base Model e Function mache wo getEntryById heisst und id uslist
-        $single_entry = $model->getEntryById($id);
+        if ($id === false):
+            //check on user level
+            $entry = $model->getAll();
+        else:
+            $entry = $model->getEntryById($id);
+        endif;
 
-        $data = [
-            "entry" => $single_entry
-        ];
-
-        return view('crud', $data);
+        return $entry;
     }
 
     public function update($table, $id) {
@@ -36,8 +37,7 @@ class CRUD extends AccountController {
 
     public function delete($table, $id) {
         $model = $this->responseModel($table);
-        // deleteById muesch im model no erstelle (BaseModel)
-        $model->deleteById($id);
+        return $model->delete(['id' => $id]);
     }
 
     private function responseModel($model_name) {

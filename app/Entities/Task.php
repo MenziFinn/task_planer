@@ -3,14 +3,17 @@
 class Task extends Base {
 
     public $attributes = [
-        // 'id'=> '',
-        'title' => null,
-        'description' => null,
-        'due_date' => null,
-        'completed' => false
+        //'id' => '',
+        'end' => '',
+        'start' => '',
+        'description' => '',
+        'priority' => '',
+        'status' => '',
+        'user_id' => '',
+        'title' => ''
     ];
 
-    protected $dates = ['due_date'];
+    protected $dates = [];
 
 }
 
