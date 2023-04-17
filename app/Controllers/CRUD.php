@@ -35,7 +35,9 @@ class CRUD extends AccountController {
             $model = $this->responseModel($table);
             $entity = $this->responseEntity($table);
         
-            $entry = $model->getEntryById($id);
+            //$entry = $model->getEntryById($id);
+
+$entry ->user_id = $this->user_id;
         
             foreach ($this->request->getPost() as $key => $item):
                 $entry->$key = $item;
@@ -43,7 +45,8 @@ class CRUD extends AccountController {
         
             $model->save($entry);
         
-            return redirect()->back();
+
+            return $model->save($entry);
         }
 
     public function delete($table, $id) {
