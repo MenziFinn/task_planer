@@ -32,8 +32,19 @@ class CRUD extends AccountController {
     }
 
     public function update($table, $id) {
-        // Update function kann me mit create zämme mache
-    }
+            $model = $this->responseModel($table);
+            $entity = $this->responseEntity($table);
+        
+            $entry = $model->getEntryById($id);
+        
+            foreach ($this->request->getPost() as $key => $item):
+                $entry->$key = $item;
+            endforeach;
+        
+            $model->save($entry);
+        
+            return redirect()->back();
+        }
 
     public function delete($table, $id) {
         $model = $this->responseModel($table);
