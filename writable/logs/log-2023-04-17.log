@@ -147,3 +147,62 @@ in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php 
  4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
  5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:08:48 --> Undefined variable $users
+in APPPATH/Controllers/Task.php on line 13.
+ 1 APPPATH/Controllers/Task.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH/Controllers/Task.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Task->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:18:56 --> Call to a member function inGroup() on array
+in APPPATH/Controllers/Task.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Task->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:37:30 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Views/be/Task.php on line 172.
+ 1 APPPATH/Views/be/Task.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH/Views/be/Task.php', 172)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/be/Task.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('be/Task', [], true)
+ 5 APPPATH/Controllers/Task.php(20): view('be/Task', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Task->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:38:45 --> Undefined property: App\Controllers\CRUD::$user_id
+in APPPATH/Controllers/CRUD.php on line 35.
+ 1 APPPATH/Controllers/CRUD.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CRUD::$user_id', 'APPPATH/Controllers/CRUD.php', 35)
+ 2 APPPATH/Controllers/Task.php(9): App\Controllers\CRUD->read('Task')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Task->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 22:56:13 --> Call to undefined method CodeIgniter\Shield\Entities\User::email()
+in APPPATH/Controllers/CRUD.php on line 90.
+ 1 APPPATH/Controllers/CRUD.php(17): App\Controllers\CRUD->statusUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CRUD->create('Task')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRUD))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 23:00:44 --> 10 ist kein gültiger Authentifikator.
+in VENDORPATH/codeigniter4/shield/src/Authentication/AuthenticationException.php on line 19.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authentication.php(51): CodeIgniter\Shield\Authentication\AuthenticationException::forUnknownAuthenticator('10')
+ 2 VENDORPATH/codeigniter4/shield/src/Auth.php(63): CodeIgniter\Shield\Authentication\Authentication->factory('10')
+ 3 VENDORPATH/codeigniter4/shield/src/Auth.php(71): CodeIgniter\Shield\Auth->getAuthenticator()
+ 4 APPPATH/Controllers/CRUD.php(90): CodeIgniter\Shield\Auth->user(10)
+ 5 APPPATH/Controllers/CRUD.php(17): App\Controllers\CRUD->statusUpdate()
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CRUD->create('Task')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRUD))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 23:11:48 --> syntax error, unexpected token "break"
+in APPPATH/Controllers/CRUD.php on line 89.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/CRUD.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CRUD')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CRUD')
+ 4 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\CRUD', true)
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

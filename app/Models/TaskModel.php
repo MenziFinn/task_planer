@@ -43,5 +43,12 @@ class TaskModel extends BaseModel {
         return $this->asObject('App\Entities\Task')->where(['id' => $user_id])->first();
     }
 
+    public function getAllByUser($user_id = false) {
+        if ($user_id === false) {
+            return false;
+        }
+
+        return $this->asObject('App\Entities\Task')->where(['user_id' => $user_id])->findAll();
+    }
 }
 

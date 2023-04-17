@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://betting.ddev.site/';
+    public $baseURL = 'https://taskplaner.ddev.site/';
 
     /**
      * --------------------------------------------------------------------------
@@ -97,7 +97,7 @@ class App extends BaseConfig
      *
      * @var string[]
      */
-    public $supportedLocales = ['de', 'en'];
+    public $supportedLocales = ['de'];
 
     /**
      * --------------------------------------------------------------------------

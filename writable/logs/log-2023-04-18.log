@@ -1,0 +1,36 @@
+CRITICAL - 2023-04-18 00:09:12 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/AccountController.php on line 42.
+ 1 APPPATH/Controllers/AccountController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/AccountController.php', 42)
+ 2 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\AccountController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 00:12:27 --> A non-numeric value encountered
+in APPPATH/Controllers/CRUD.php on line 64.
+ 1 APPPATH/Controllers/CRUD.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Controllers/CRUD.php', 64)
+ 2 APPPATH/Controllers/CRUD.php(36): App\Controllers\CRUD->versionControl('3')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CRUD->read('task', '3')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRUD))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 00:14:37 --> A non-numeric value encountered
+in APPPATH/Controllers/CRUD.php on line 64.
+ 1 APPPATH/Controllers/CRUD.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Controllers/CRUD.php', 64)
+ 2 APPPATH/Controllers/CRUD.php(36): App\Controllers\CRUD->versionControl('3')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CRUD->read('task', '3')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRUD))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 00:38:39 --> Call to a member function toArray() on bool
+in APPPATH/Controllers/Task.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Task->updateAjax('3')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 00:39:12 --> Undefined variable $task
+in APPPATH/Controllers/Task.php on line 26.
+ 1 APPPATH/Controllers/Task.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', 'APPPATH/Controllers/Task.php', 26)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Task->updateAjax('3')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

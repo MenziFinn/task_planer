@@ -3,7 +3,7 @@
 class Task extends Base {
 
     public $attributes = [
-        //'id' => '',
+        'id' => '',
         'end' => '',
         'start' => '',
         'description' => '',

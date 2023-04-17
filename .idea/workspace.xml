@@ -5,32 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bf5751d-1a74-4b23-85e6-d549e7edb980" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Entities/AuthIdentity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Entities/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Entities/VersionControl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/AuthIdentityModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/VersionControlModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Config/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/App.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/CRUD.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/CRUD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Entities/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Entities/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TaskModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TaskModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/be/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/be/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/be/inc/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/be/inc/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677289.203058.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677474.657217.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677494.639902.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677519.743864.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677572.652291.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677639.034776.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677685.992329.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677686.690223.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677704.408433.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677730.294666.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677732.829115.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681677740.744219.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678062.191283.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678119.032121.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678263.362509.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678263.470928.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678271.231444.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678275.492317.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678276.362319.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681678280.480764.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734476.212071.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734493.211396.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734495.111277.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734787.041055.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734833.575104.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734864.649340.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734865.722020.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734876.048384.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734877.742815.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734918.018901.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734918.122388.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734920.543962.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734920.633661.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734926.408549.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734927.704332.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734928.689899.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734949.346703.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734966.494573.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681734967.259722.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1681735307.578867.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/writable/logs/log-2023-04-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/writable/logs/log-2023-04-17.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +178,7 @@
       <workItem from="1680686114191" duration="2387000" />
       <workItem from="1680757782435" duration="942000" />
       <workItem from="1680932152563" duration="21454000" />
-      <workItem from="1681732384465" duration="2246000" />
+      <workItem from="1681732384465" duration="13262000" />
     </task>
     <servers />
   </component>
