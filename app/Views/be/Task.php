@@ -184,8 +184,8 @@
                 $('form input[name="description"]').val(response.description);
 
                 //hier selector vorauswählen val is falsche function giebt glaub sel function von jquery
-                $('form input[name="priority"]').val(response.priority);
-                $('form input[name="status"]').val(response.status);
+                $('form select[name="priority"]').val(response.priority);
+                $('form select[name="status"]').val(response.status);
 
                 var end = new Date(response.end);
             var endFormatted = end.toLocaleDateString('de-DE'); //EU datumformat
