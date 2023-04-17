@@ -37,16 +37,14 @@ class CRUD extends AccountController {
         
             //$entry = $model->getEntryById($id);
 
-$entry ->user_id = $this->user_id;
-        
-            foreach ($this->request->getPost() as $key => $item):
-                $entry->$key = $item;
-            endforeach;
-        
-            $model->save($entry);
-        
+            $entity->user_id = $this->user_id;
 
-            return $model->save($entry);
+            foreach ($this->request->getPost() as $key => $item):
+                $entity->$key = $item;
+            endforeach;
+
+
+            return $model->save($entity);
         }
 
     public function delete($table, $id) {

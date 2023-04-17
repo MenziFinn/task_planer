@@ -44,8 +44,8 @@ class Auth extends ShieldAuth
      * override the `getUrl()` method to apply any logic you may need.
      */
     public array $redirects = [
-        'register' => 'Account/Dashboard',
-        'login'    => 'Account/Dashboard',
+        'register' => 'Account/Task',
+        'login'    => 'Account/Task',
         'logout'   => 'login',
     ];
 

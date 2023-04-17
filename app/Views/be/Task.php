@@ -96,9 +96,9 @@
                                                 <label class="col-sm-3 col-form-label">Status</label>
                                                 <div class="col-sm-9">
                                                     <select class="form-control" name="status">
-                                                        <option value="yes">Genehmigt</option>
-                                                        <option value="open">offen</option>
-                                                        <option value="no">Abgelehnt</option>
+                                                        <option value="1">Genehmigt</option>
+                                                        <option value="2">offen</option>
+                                                        <option value="3">Abgelehnt</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -183,18 +183,11 @@
                 $('form input[name="title"]').val(response.title);
                 $('form input[name="description"]').val(response.description);
 
-                //hier selector vorauswählen val is falsche function giebt glaub sel function von jquery
                 $('form select[name="priority"]').val(response.priority);
                 $('form select[name="status"]').val(response.status);
 
-                var end = new Date(response.end);
-            var endFormatted = end.toLocaleDateString('de-DE'); //EU datumformat
-            $('form input[name="end"]').val(endFormatted);
-
-            var start = new Date(response.start);
-            var startFormatted = start.toLocaleDateString('de-DE'); //EU datumformat
-            console.log(startFormatted)
-            $('form input[name="start"]').val(startFormatted);
+                $('form input[name="end"]').val(response.end.replace(" ", "T"));
+                $('form input[name="start"]').val(response.start.replace(" ", "T"));
             }, error: function (jqXhr, textStatus, errorMessage) {
                 console.log('Error: ' + errorMessage);
             }
@@ -208,7 +201,6 @@
             dataType: 'json',
             success: function (response) {
                 console.log(response);
-
             }, error: function (jqXhr, textStatus, errorMessage) {
                 console.log('Error: ' + errorMessage);
             }

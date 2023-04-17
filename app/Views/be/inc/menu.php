@@ -1,7 +1,7 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar" style="min-height: 100vh">
     <ul class="nav">
         <li class="nav-item menu-items">
-            <a class="nav-link" href="<?= site_url('Account/Events'); ?>">
+            <a class="nav-link" href="<?= site_url('Account/Task'); ?>">
               <span class="menu-icon">
                 <i class="mdi mdi-speedometer"></i>
               </span>
