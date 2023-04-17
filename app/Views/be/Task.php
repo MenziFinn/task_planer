@@ -187,9 +187,14 @@
                 $('form input[name="priority"]').val(response.priority);
                 $('form input[name="status"]').val(response.status);
 
-                // hier response.end in format machen und in val einfügen
-                $('form input[name="end"]').val(response.end);
-                $('form input[name="start"]').val(response.start);
+                var end = new Date(response.end);
+            var endFormatted = end.toLocaleDateString('de-DE'); //EU datumformat
+            $('form input[name="end"]').val(endFormatted);
+
+            var start = new Date(response.start);
+            var startFormatted = start.toLocaleDateString('de-DE'); //EU datumformat
+            console.log(startFormatted)
+            $('form input[name="start"]').val(startFormatted);
             }, error: function (jqXhr, textStatus, errorMessage) {
                 console.log('Error: ' + errorMessage);
             }
